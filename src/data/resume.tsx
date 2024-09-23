@@ -68,7 +68,7 @@ export const DATA = {
 
     {
   company: "Idoko Software",
-  // href: "https://www.idoko.com",
+  href: "#",
   badges: [],
   location: "Remote",
   title: "Frontend Developer",
@@ -79,7 +79,7 @@ export const DATA = {
   },
   {
   company: "Freelancer contractor",
-  // href: "https://oncall.com",
+  href: "#",
   badges: [],
   location: "Remote",
   title: "Frontend Developer",
