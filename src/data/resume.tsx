@@ -65,18 +65,6 @@ export const DATA = {
   },
 
   work: [
-
-    {
-  company: "Idoko Software",
-  href: "#",
-  badges: [],
-  location: "Remote",
-  title: "Frontend Developer",
-  logoUrl: "/idoko.png",
-  start: "June 2022",
-  end: "November 2022",
-  description: "Utilized React/Next.js with TypeScript and Bootstrap to develop highly responsive websites. Focused on bug fixes, refactoring, and feature enhancements to improve overall site performance and user experience."
-  },
   {
   company: "Freelancer contractor",
   href: "#",
@@ -88,6 +76,18 @@ export const DATA = {
   end: "June 2024",
   description: "worked on Developing an CMS for managing customer's product's and a custom Shopify theme secured a new client for the business through enhanced site optimization,helped boosting SEO ranking to top results. Improved feature delivery rate by almost 8% through collaboration with UI/UX and backend teams,collaborated on developing a multi-tenant e-commerce app for a solo entrepreneur in Kuwait, serving 6 clients."
 },
+    {
+  company: "Idoko Software",
+  href: "#",
+  badges: [],
+  location: "Remote",
+  title: "Frontend Developer",
+  logoUrl: "/idoko.png",
+  start: "June 2022",
+  end: "November 2022",
+  description: "Utilized React/Next.js with TypeScript and Bootstrap to develop highly responsive websites. Focused on bug fixes, refactoring, and feature enhancements to improve overall site performance and user experience."
+  },
+
 
   ],
   education: [
