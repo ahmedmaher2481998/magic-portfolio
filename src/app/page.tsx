@@ -23,7 +23,7 @@ export default function Page() {
                 delay={BLUR_FADE_DELAY}
                 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none"
                 yOffset={8}
-                text={`Hi, I'm ${DATA.name.split(" ")[0]} 👋`}
+                text={`Welcome, my Name is ${DATA.name.split(" ")[0]} 👋`}
               />
               <BlurFadeText
                 className="max-w-[600px] md:text-xl"
@@ -215,12 +215,12 @@ export default function Page() {
                   with a direct question on twitter
                 </Link>{" "}
                 and I&apos;ll respond with in 24 span.
-                <Separator/>
+                <Separator />
                 <Link
                   href={DATA.contact.social.email.url}
                   className="text-blue-500 hover:underline"
                 >
-                or you can email me 
+                  or you can email me
                 </Link>{" "}
               </p>
             </div>

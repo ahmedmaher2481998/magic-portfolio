@@ -158,7 +158,7 @@ export const DATA = {
         }
       ],
       image: "/ranker.png",
-      // video: ""
+      video: ""
     },
 
     {
