@@ -187,7 +187,7 @@ export const DATA = {
     },
     {
       title: "ComfySloth",
-      href: "https://comfysloth.com",
+      href: "https://comfy-sloth-maher.netlify.app/",
       dates: "May 2022",
       active: true,
       description:
