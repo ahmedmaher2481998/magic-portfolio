@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Software engineer building solution powered JS ecosystem and exploring the vast sea of the web.",
   summary:
-  "From civil engineering to software development, my journey has always been about building and problem-solving. In 2021, I transitioned from designing structures to crafting digital experiences, starting with The Odin Project and App Academy. Over the past three years, I’ve collaborated with startups and entrepreneurs to build responsive websites, e-commerce platforms, and admin dashboards using React, Next.js, and Vue. My passion lies in developing creative, scalable solutions that merge technical precision with user-focused design",
+    "From civil engineering to software development, my journey has always been about building and problem-solving. In 2021, I transitioned from designing structures to crafting digital experiences, starting with The Odin Project and App Academy. Over the past three years, I’ve collaborated with startups and entrepreneurs to build responsive websites, e-commerce platforms, and admin dashboards using React, Next.js, and Vue. My passion lies in developing creative, scalable solutions that merge technical precision with user-focused design",
   avatarUrl: "/me.jpg",
   skills: [
     "Javascript",
@@ -54,7 +54,7 @@ export const DATA = {
 
         navbar: true,
       },
-    
+
       email: {
         name: "Send Email",
         url: "emailto:ahmedmaher2481998@gmail.com",
@@ -65,28 +65,28 @@ export const DATA = {
   },
 
   work: [
-  {
-  company: "Freelancer contractor",
-  href: "#",
-  badges: [],
-  location: "Remote",
-  title: "Frontend Developer",
-  logoUrl: "/oncall.png",
-  start: "November 2022",
-  end: "June 2024",
-  description: "worked on Developing an CMS for managing customer's product's and a custom Shopify theme secured a new client for the business through enhanced site optimization,helped boosting SEO ranking to top results. Improved feature delivery rate by almost 8% through collaboration with UI/UX and backend teams,collaborated on developing a multi-tenant e-commerce app for a solo entrepreneur in Kuwait, serving 6 clients."
-},
     {
-  company: "Idoko Software",
-  href: "#",
-  badges: [],
-  location: "Remote",
-  title: "Frontend Developer",
-  logoUrl: "/idoko.png",
-  start: "June 2022",
-  end: "November 2022",
-  description: "Utilized React/Next.js with TypeScript and Bootstrap to develop highly responsive websites. Focused on bug fixes, refactoring, and feature enhancements to improve overall site performance and user experience."
-  },
+      company: "Freelancer contractor",
+      href: "#",
+      badges: [],
+      location: "Remote",
+      title: "Frontend Developer",
+      logoUrl: "/oncall.png",
+      start: "November 2022",
+      end: "June 2024",
+      description: "worked on Developing an CMS for managing customer's product's and a custom Shopify theme secured a new client for the business through enhanced site optimization,helped boosting SEO ranking to top results. Improved feature delivery rate by almost 8% through collaboration with UI/UX and backend teams,collaborated on developing a multi-tenant e-commerce app for a solo entrepreneur in Kuwait, serving 6 clients."
+    },
+    {
+      company: "Idoko Software",
+      href: "#",
+      badges: [],
+      location: "Remote",
+      title: "Frontend Developer",
+      logoUrl: "/idoko.png",
+      start: "June 2022",
+      end: "November 2022",
+      description: "Utilized React/Next.js with TypeScript and Bootstrap to develop highly responsive websites. Focused on bug fixes, refactoring, and feature enhancements to improve overall site performance and user experience."
+    },
 
 
   ],
@@ -94,7 +94,7 @@ export const DATA = {
     {
       school: "BNS university",
       href: "https://www.bsu.edu.eg",
-      degree: "Bachelor Degree in civil engineering", 
+      degree: "Bachelor Degree in civil engineering",
       logoUrl: "/bsu.jpg",
       start: "2017",
       end: "2022",
@@ -102,98 +102,124 @@ export const DATA = {
   ],
   projects: [
     {
-  title: "Blogy",
-  href: "https://blogy.com",
-  dates: "August 2023 - Present",
-  active: true,
-  description:
-    "Blogy is my personal blog platform, built using Vue and Chadcn UI with Supabase as the backend-as-a-service (BaaS). It features content management, user authentication, and a clean, modern interface for publishing and managing blog posts.",
-  technologies: [
-    "Vue.js",
-    "Chadcn UI",
-    "Supabase",
-    "TypeScript",
-    "TailwindCSS"
-  ],
-  links: [
-    {
-      type: "Website",
-      href: "https://blogy.com",
-      icon: <Icons.globe className='size-3' />
+      title: "TIL",
+      href: "https://todayilearn.vercel.app/",
+      dates: "August 2023 - Present",
+      active: true,
+      description:
+        "TIL is a place where every one can share little things they learned today, i created after realizing that medium is not right for the mini blogs.",
+      technologies: [
+        "Vue.js",
+        "TypeScript",
+        "pinia",
+        "Supabase",
+        "Chadcn UI",
+        "TailwindCSS",
+        "cypress",
+        "Vitest"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://todayilearn.vercel.app/",
+          icon: <Icons.globe className='size-3' />
+        },
+        {
+          type: "code",
+          href: "https://github.com/ahmedmaher2481998/TIL",
+          icon: <Icons.github className='size-3' />
+        }
+      ],
+      image: "",
+      video: "/TIL-promo.mp4"
     },
-      {
-      type: "code",
-      href: "https://blogy.com",
-      icon: <Icons.github className='size-3' />
-    }
-  ],
-  image: "",
-  video: ""
-},
     {
-  title: "Nest Auth",
-  href: "https://github.com/ahmedmaher2481998/nest-auth",
-  dates: "June 2022",
-  active: false,
-  description:
-    "Built a backend authentication service using Nest.js, Prisma, Docker, and PostgreSQL. Implemented secure token-based authentication with JWT, enabling robust user management and security.",
-  technologies: [
-    "Nest.js",
-    "Prisma",
-    "Docker",
-    "PostgreSQL",
-    "JWT"
-  ],
-  links: [
-    {
-      type: "Website",
-      href: "https://blogy.com",
-      icon: <Icons.globe className='size-3' />
+      title: "Ranker IO",
+      href: "https://github.com/ahmedmaher2481998/nest-auth",
+      dates: "June 2022",
+      active: false,
+      description:
+        "A realtime Web app where we can vote upon the topics in real time with your Friends.",
+      technologies: [
+        "Nest.js",
+        "React",
+        "SocketIO",
+        "Redis",
+        "Docker",
+        "Valtio",
+        "TailwindCss",
+        "wouter"
+      ],
+      links: [
+        {
+          type: "code",
+          href: "https://github.com/ahmedmaher2481998/ranker",
+          icon: <Icons.github className='size-3' />
+        }
+      ],
+      image: "/ranker.png",
+      // video: ""
     },
-      {
-      type: "code",
-      href: "https://blogy.com",
-      icon: <Icons.github className='size-3' />
-    }
-  ],
-  image: "",
-  video: ""
-},
+
     {
-  title: "ComfySloth",
-  href: "https://comfysloth.com",
-  dates: "May 2022",
-  active: true,
-  description:
-    "An e-commerce platform for furniture with full authentication and Stripe payment integration. Developed using React and Styled Components, the platform allows users to browse, add to cart, and securely complete purchases.",
-  technologies: [
-    "React",
-    "Styled Components",
-    "React Context API",
-    "Stripe",
-    "Auth0",
-    "Axios"
-  ],
-  links: [
-    {
-      type: "Website",
-      href: "https://blogy.com",
-      icon: <Icons.globe className='size-3' />
+      title: "Nest Auth",
+      href: "https://github.com/ahmedmaher2481998/nest-auth",
+      dates: "June 2022",
+      active: false,
+      description:
+        "Built a backend authentication service using Nest.js, Prisma, Docker, and PostgreSQL. Implemented secure token-based authentication with JWT, enabling robust user management and security.",
+      technologies: [
+        "Nest.js",
+        "Prisma",
+        "Docker",
+        "PostgreSQL",
+        "JWT"
+      ],
+      links: [
+        {
+          type: "code",
+          href: "https://github.com/ahmedmaher2481998/nest-auth",
+          icon: <Icons.github className='size-3' />
+        }
+      ],
+      image: "/nest-auth.png",
+      video: ""
     },
-      {
-      type: "code",
-      href: "https://blogy.com",
-      icon: <Icons.github className='size-3' />
-    }
-  ],
-  image: "",
-  video: ""
-},
+    {
+      title: "ComfySloth",
+      href: "https://comfysloth.com",
+      dates: "May 2022",
+      active: true,
+      description:
+        "An e-commerce platform for furniture with full authentication and Stripe payment integration. Developed using React and Styled Components, the platform allows users to browse, add to cart, and securely complete purchases.",
+      technologies: [
+        "React",
+        "Styled Components",
+        "React Context API",
+        "Stripe",
+        "Auth0",
+        "Axios"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://comfy-sloth-maher.netlify.app/",
+          icon: <Icons.globe className='size-3' />
+        },
+        {
+          type: "code",
+          href: "https://github.com/ahmedmaher2481998/e-commerce",
+          icon: <Icons.github className='size-3' />
+        }
+      ],
+      image: "/comfeySloth.png",
+      video: ""
+    },
 
 
 
- 
-  ],hackathons:[]
+
+  ], hackathons: []
   // hackathons: [
   //   {
   //     title: "Hack Western 5",
