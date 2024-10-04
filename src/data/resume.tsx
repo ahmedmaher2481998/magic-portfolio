@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, NotebookIcon } from "lucide-react";
+import { HomeIcon, FileUser, NotebookIcon, } from "lucide-react";
 
 export const DATA = {
   name: "Ahmed Maher",
@@ -28,7 +28,8 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "https://www.blogy.github.io", icon: NotebookIcon, label: "Blog" },
+    { href: "https://todayilearn.vercel.app/", icon: NotebookIcon, label: "Blog" },
+    { href: "https://docs.google.com/document/d/1egqfGgsU880jwa1loqjcrrGksJxsQ5HU1cXITDSwlHI/edit?usp=sharing", icon: FileUser, label: "resume" },
   ],
   contact: {
     email: "ahmedmaher2481998@gmail.com",
@@ -189,7 +190,7 @@ export const DATA = {
       title: "ComfySloth",
       href: "https://comfy-sloth-maher.netlify.app/",
       dates: "May 2022",
-      active: true,
+      active: false,
       description:
         "An e-commerce platform for furniture with full authentication and Stripe payment integration. Developed using React and Styled Components, the platform allows users to browse, add to cart, and securely complete purchases.",
       technologies: [

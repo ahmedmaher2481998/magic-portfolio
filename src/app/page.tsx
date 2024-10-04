@@ -40,16 +40,7 @@ export default function Page() {
           </div>
         </div>
       </section>
-      <section id="about">
-        <BlurFade delay={BLUR_FADE_DELAY * 3}>
-          <h2 className="text-xl font-bold">About</h2>
-        </BlurFade>
-        <BlurFade delay={BLUR_FADE_DELAY * 4}>
-          <Markdown className="prose max-w-full text-pretty font-sans text-sm text-muted-foreground dark:prose-invert">
-            {DATA.summary}
-          </Markdown>
-        </BlurFade>
-      </section>
+
       <section id="work">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 5}>
@@ -75,7 +66,7 @@ export default function Page() {
           ))}
         </div>
       </section>
-      <section id="education">
+      {/* <section id="education">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 7}>
             <h2 className="text-xl font-bold">Education</h2>
@@ -97,7 +88,7 @@ export default function Page() {
             </BlurFade>
           ))}
         </div>
-      </section>
+      </section> */}
       <section id="skills">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 9}>
@@ -112,6 +103,7 @@ export default function Page() {
           </div>
         </div>
       </section>
+
       <section id="projects">
         <div className="space-y-12 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 11}>
@@ -124,9 +116,7 @@ export default function Page() {
                   Check out my latest work
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  I&apos;ve worked on a variety of projects, from simple
-                  websites to complex web applications. Here are a few of my
-                  favorites.
+                  I&apos;ve worked on projects ranging from basic websites to complex web apps. Here are some of my favorites.
                 </p>
               </div>
             </div>
@@ -147,11 +137,23 @@ export default function Page() {
                   image={project.image}
                   video={project.video}
                   links={project.links}
+                  active={project.active}
+
                 />
               </BlurFade>
             ))}
           </div>
         </div>
+      </section>
+      <section id="about">
+        <BlurFade delay={BLUR_FADE_DELAY * 3}>
+          <h2 className="text-xl font-bold">MY Story</h2>
+        </BlurFade>
+        <BlurFade delay={BLUR_FADE_DELAY * 4}>
+          <Markdown className="prose max-w-full text-pretty font-sans text-sm text-muted-foreground dark:prose-invert">
+            {DATA.summary}
+          </Markdown>
+        </BlurFade>
       </section>
       {/* <section id="hackathons">
         <div className="space-y-12 w-full py-12">
