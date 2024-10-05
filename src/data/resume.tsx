@@ -69,7 +69,7 @@ export const DATA = {
     {
       company: "Al Mailam agency",
       href: "#",
-      badges: [],
+      badges: ["React", "Next Js", "Typescript", "Git", "Node.JS", "Liquid", "Vitest"],
       location: "Remote",
       title: "Frontend Developer",
       logoUrl: "/oncall.png",
@@ -80,7 +80,7 @@ export const DATA = {
     {
       company: "Idoko Software",
       href: "#",
-      badges: [],
+      badges: ['react js', 'typescript', "styled commonness",],
       location: "Remote",
       title: "Frontend Developer",
       logoUrl: "/idoko.png",
