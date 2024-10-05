@@ -67,7 +67,7 @@ export const DATA = {
 
   work: [
     {
-      company: "Freelancer contractor",
+      company: "Al Mailam agency",
       href: "#",
       badges: [],
       location: "Remote",
