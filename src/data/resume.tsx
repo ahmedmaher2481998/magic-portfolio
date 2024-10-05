@@ -69,24 +69,35 @@ export const DATA = {
     {
       company: "Al Mailam agency",
       href: "#",
-      badges: ["React", "Next Js", "Typescript", "Git", "Node.JS", "Liquid", "Vitest"],
+      badges: [],
       location: "Remote",
       title: "Frontend Developer",
       logoUrl: "/oncall.png",
       start: "November 2022",
       end: "June 2024",
-      description: "worked on Developing an CMS for managing customer's product's and a custom Shopify theme secured a new client for the business through enhanced site optimization,helped boosting SEO ranking to top results. Improved feature delivery rate by almost 8% through collaboration with UI/UX and backend teams,collaborated on developing a multi-tenant e-commerce app for a solo entrepreneur in Kuwait, serving 6 clients."
+      description: [
+        "Collaborated using Next.js & Node on building a multi-tenant e-commerce platform for a Business agency in Kuwait, serving 6 clients with tailored solutions",
+        "Built a custom Shopify theme using Liquid with no prior experience in Liquid. The site generated 100 thousand visitors consistently, securing a new client contract for the entrepreneur",
+        "Improved feature delivery rate by 8% through designing a better workflow with the team & maintain type-safe system, ensuring smoother and faster development cycles",
+        "Introduced Git and best development practices to the team"
+      ]
+
     },
     {
       company: "Idoko Software",
       href: "#",
-      badges: ['react js', 'typescript', "styled commonness",],
+      badges: [],
       location: "Remote",
       title: "Frontend Developer",
       logoUrl: "/idoko.png",
       start: "June 2022",
       end: "November 2022",
-      description: "Utilized React/Next.js with TypeScript and Bootstrap to develop highly responsive websites. Focused on bug fixes, refactoring, and feature enhancements to improve overall site performance and user experience."
+      description: [
+        "Built components and pages using static data in parallel with the backend, then contributed in the API integration process",
+        "Utilized React, TypeScript, Bootstrap & Sass responsive table using Bootstrap to display customer orders and deals, enhancing data presentation and user interaction",
+        "Refactored code based on feedback from the senior engineer, ensuring alignment with best practices and improved scalability"
+      ]
+
     },
 
 
