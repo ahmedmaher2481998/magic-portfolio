@@ -71,15 +71,30 @@ export const DATA = {
       href: "#",
       badges: [],
       location: "Remote",
-      title: "Frontend Developer",
+      title: "Frontend Engineer | Next.js, React, Node.js",
       logoUrl: "/oncall.png",
-      start: "November 2022",
-      end: "June 2024",
+      start: "Nov 2022",
+      end: "Jun 2024",
       description: [
-        "Collaborated using Next.js & Node on building a multi-tenant e-commerce platform for a Business agency in Kuwait, serving 6 clients with tailored solutions",
-        "Built a custom Shopify theme using Liquid with no prior experience in Liquid. The site generated 100 thousand visitors consistently, securing a new client contract for the entrepreneur",
-        "Improved feature delivery rate by 8% through designing a better workflow with the team & maintain type-safe system, ensuring smoother and faster development cycles",
-        "Introduced Git and best development practices to the team"
+        "Collaborated using Next.js, React and  Node  on building a multi-tenant e-commerce platform for a Business agency in Kuwait, serving 6 clients with tailored solutions.",
+        "Built a custom Shopify theme using Liquid, with no prior experience in Liquid. The site generated 100K visitors consistently, and  securing a new client contract for the entrepreneur.",
+        "Improved feature delivery rate by 8% through designing a better work flow with the team & maintain type Safe system, ensuring smoother and faster development cycles.",
+        "Introduced GitHub work flow and best development practices to team."
+      ]
+
+    }, {
+      company: "Orsod Noor",
+      href: "#",
+      badges: [],
+      location: "Remote",
+      title: "Full-Stack Developer (Freelance) Firebase, Oracle Cloud, Node.js, React",
+      logoUrl: "/idoko.png",
+      start: "Dec 2022",
+      end: "April 2023",
+      description: [
+        "Contributed to a full-stack web scraping tool for teachers in KSA using Firebase functions, Oracle Cloud, Node.js, and React.",
+        "Focused on codebase maintenance and debugging, ensuring improved stability and performance.", "Independently handled deployment on Oracle Cloud.",
+        "Automated tasks related to the KSA education portal, enhancing efficiency for educators."
       ]
 
     },
@@ -88,10 +103,10 @@ export const DATA = {
       href: "#",
       badges: [],
       location: "Remote",
-      title: "Frontend Developer",
+      title: "Frontend Developer | React | Typescript | bootstrap",
       logoUrl: "/idoko.png",
-      start: "June 2022",
-      end: "November 2022",
+      start: "Jun 2022",
+      end: "Nov 2022",
       description: [
         "Built components and pages using static data in parallel with the backend, then contributed in the API integration process",
         "Utilized React, TypeScript, Bootstrap & Sass responsive table using Bootstrap to display customer orders and deals, enhancing data presentation and user interaction",

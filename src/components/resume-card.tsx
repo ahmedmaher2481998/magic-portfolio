@@ -88,7 +88,7 @@ export const ResumeCard = ({
           </CardHeader>
           {description?.length && (
             description.map((text, i) => (
-              <motion.div
+              <motion.li
                 key={text}
                 initial={{ opacity: 0, height: 0 }}
                 animate={{
@@ -103,7 +103,7 @@ export const ResumeCard = ({
                 className="mt-2 text-xs sm:text-sm"
               >
                 {text}
-              </motion.div>
+              </motion.li>
             ))
           )}
         </div>
